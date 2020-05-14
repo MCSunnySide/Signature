@@ -1,0 +1,14 @@
+name: Signature
+version: ${project.version}
+main: com.mcsunnyside.signature.Signature
+api-version: 1.13
+depend: [PlaceHolderAPI]
+permissions:
+  signature.admin:
+    description: Just a stupid command
+    default: op
+commands:
+  signature:
+    description: signature command
+    usage: /signature
+    aliases: [signature, sign, mark]
